@@ -57,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_favorites:
                 Toast.makeText(MainActivity.this,getString(R.string.action_favorites),Toast.LENGTH_LONG).show();
                 break;
+            case R.id.action_recent:
+            Toast.makeText(MainActivity.this,getString(R.string.action_recent),Toast.LENGTH_LONG).show();
+            break;
             case R.id.action_item3:
                 Toast.makeText(MainActivity.this,getString(R.string.action_item3),Toast.LENGTH_LONG).show();
                 break;
