@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,7 +47,20 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
+        switch (id) {
+            case R.id.action_settings:
+                Toast.makeText(MainActivity.this,getString(R.string.action_settings),Toast.LENGTH_LONG).show();
+                break;
+            case R.id.action_search:
+                Toast.makeText(MainActivity.this,getString(R.string.action_search),Toast.LENGTH_LONG).show();
+                break;
+            case R.id.action_favorites:
+                Toast.makeText(MainActivity.this,getString(R.string.action_favorites),Toast.LENGTH_LONG).show();
+                break;
+            case R.id.action_item3:
+                Toast.makeText(MainActivity.this,getString(R.string.action_item3),Toast.LENGTH_LONG).show();
+                break;
+        }
         return super.onOptionsItemSelected(item);
     }
 }
