@@ -4,7 +4,31 @@
     tools:context="com.example.viachslav.phonecatalog.MainActivity">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_settings"
+        android:orderInCategory="2"
         android:title="@string/action_settings"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_action_access_time"
+        android:id="@+id/action_recent"
+        android:orderInCategory="3"
+        android:title="@string/Recent"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_action_search"
+        android:id="@+id/action_search"
+        android:orderInCategory="3"
+        android:title="@string/Search"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_action_grade"
+        android:id="@+id/action_favorites"
+        android:orderInCategory="3"
+        android:title="@string/Favorites"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_item3"
+        android:orderInCategory="4"
+        android:title="@string/action_item3"
         app:showAsAction="never" />
 </menu>
