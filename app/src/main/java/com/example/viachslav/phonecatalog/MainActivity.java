@@ -12,6 +12,19 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
+//создаем массив разделов
+    private String titles[] = {
+            "Iphone 3G",
+            "Iphone 4",
+            "Iphone 4S",
+            "Iphone 5",
+            "Iphone 5S",
+            "Iphone 6",
+            "Iphone 6S",
+            "Iphone 6S Plus",
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
