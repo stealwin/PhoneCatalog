@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 //запускаем вторую активность
                 startActivity(intent);
 
+
             }
         }
         );
