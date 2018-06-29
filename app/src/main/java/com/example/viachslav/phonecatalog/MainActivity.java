@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             "Iphone 6",
             "Iphone 6S",
             "Iphone 6S Plus",
+            "Ipro Wave"
     };
 
     @Override
